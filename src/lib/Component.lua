@@ -1,0 +1,4 @@
+---@class Component
+---@field parent Object
+---@field on_message? fun(self: Component, message: string, ...)
+---@field update? fun(self: Component, dt: number)
